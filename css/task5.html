@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #FFD700;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  float: left;
+  width: 200px;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  list-style: none;
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: #FFF;
+  color: #000;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background-color: #EEE;
+}
+
+.bullet {
+  display: inline-block;
+  width: 25px;
+  height: 10px;
+  background-color: #121212;
+}
+
+.main-content {
+  color:#e80c81;
+  margin-left: 220px;
+  padding: 10px;
+  
+}
+
+.main-content h1 {
+  color: #e80c81;
+}
+
+.footer {
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* Styling for the bullet bars */
+.bullet-bar-1 { width: 15px; }
+.bullet-bar-2 { width: 15px; }
+.bullet-bar-3 { width: 15px; }
+.bullet-bar-4 { width: 15px; }
+</style>
+</head>
+<body>
+
+<ul class="sidebar">
+  <li>Home page <span class="bullet bullet-bar-1"></span></li>
+  <li>Musings <span class="bullet bullet-bar-2"></span></li>
+  <li>My town <span class="bullet bullet-bar-3"></span></li>
+  <li>Links <span class="bullet bullet-bar-4"></span></li>
+</ul>
+
+<div class="main-content">
+  <h1>My first styled page</h1>
+  <p>Welcome to my styled page!</p>
+  <p>It lacks images, but at least it has style. And it has links, even if they don't go anywhere...</p>
+  <p>There should be more here, but I don't know what yet.</p>
+  <div class="footer">
+    Made 5 April 2004 by myself.
+  </div>
+</div>
+
+</body>
+</html>
